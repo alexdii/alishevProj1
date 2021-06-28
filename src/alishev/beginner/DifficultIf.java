@@ -8,7 +8,7 @@ public class DifficultIf {                                  // class
         System.out.println("Введите первое число: ");
         int a = sc1.nextInt();                              //  declaration
         System.out.println("Ваше первое число: " + a);
-        Scanner sc2 = new Scanner(System.in);
+        Scanner sc2 = new Scanner(System.in);               // System.in - input, System.out - output
         System.out.println("Введите второе число: ");
         int b = sc2.nextInt();
         System.out.println("Ваше второе число: " + b);
