@@ -1,12 +1,12 @@
 package alishev.beginner;
 
-import java.util.Scanner;
+import java.util.Scanner;                                   //need to import Scanner
 
-public class DifficultIf {
-    public static void main(String[] args) {
-        Scanner sc1 = new Scanner(System.in);
+public class DifficultIf {                                  // class
+    public static void main(String[] args) {                // method
+        Scanner sc1 = new Scanner(System.in);               // do not work without import from library
         System.out.println("Введите первое число: ");
-        int a = sc1.nextInt();
+        int a = sc1.nextInt();                              //  declaration
         System.out.println("Ваше первое число: " + a);
         Scanner sc2 = new Scanner(System.in);
         System.out.println("Введите второе число: ");
