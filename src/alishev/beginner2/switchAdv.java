@@ -15,6 +15,9 @@ public class switchAdv {
             case 18:
                 System.out.println("тебе пора идти в армию");
                 break;
+            case 50:
+                System.out.println("ты Лёха");
+                break;
             default:
                 System.out.println("твой возраст не подходит по условиям задачи");
 
