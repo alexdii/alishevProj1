@@ -5,10 +5,14 @@ public class IfToRemove {
 
 // todo: добавить функционал ввода данных с клавиатуры
 
+
         int a;
         int b;
-        a = 5;
-        b = 3;
+        System.out.println("input a");
+        Scanner scan = new Scanner(System.in);
+        a = scan.nextInt();
+        System.out.println("input b");
+        b = scan.nextInt();
         if(a>b) {
             System.out.println("a more than b");
         } else if(a<b) {

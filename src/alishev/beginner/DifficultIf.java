@@ -8,9 +8,9 @@ public class DifficultIf {                                  // class
         System.out.println("Введите первое число: ");
         int a = sc1.nextInt();                              //  declaration
         System.out.println("Ваше первое число: " + a);
-        Scanner sc2 = new Scanner(System.in);               // System.in - input, System.out - output
+  //      Scanner sc2 = new Scanner(System.in);               // System.in - input, System.out - output
         System.out.println("Введите второе число: ");
-        int b = sc2.nextInt();
+        int b = sc1.nextInt();                              // sc2.nextLine() was here before, I can't see any changes!!!   ???
         System.out.println("Ваше второе число: " + b);
         if (a > b) {
             System.out.println("Первое число больше второго!");
