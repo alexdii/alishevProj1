@@ -5,6 +5,11 @@ public class switchAdv {
         Scanner scr = new Scanner(System.in);
         System.out.println("введите свой возраст");
         int age = scr.nextInt();
+        if(age>65) {                            // insert if
+            System.out.println("ты пенсионер");
+        }else if(age>20){
+            System.out.println("иди работай!");
+        }
         switch(age) {
             case 0:
                 System.out.println("ты родился");
