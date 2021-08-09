@@ -5,13 +5,13 @@ public class ClassesAndMethods {
         Person person1 = new Person();
         person1.name = "Алексей";
         person1.age = 50;
-        person1.sayHallo();
+        person1.sayHello();
         person1.speak();
 
         Person person2 = new Person();
         person2.name = "John";
         person2.age = 51;
-        person2.sayHallo();
+        person2.sayHello();
         person2.speak();
 
     }
@@ -27,7 +27,7 @@ class Person {
         }
     }
 
-    void sayHallo() {
+    void sayHello() {
         System.out.println("Привет!");
     }
 }
