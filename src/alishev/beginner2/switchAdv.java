@@ -15,7 +15,7 @@ public class switchAdv {
             case 18:
                 System.out.println("тебе пора идти в армию");
                 break;
-            case 50:
+            case 51:
                 System.out.println("ты Лёха");
                 break;
             //default:
