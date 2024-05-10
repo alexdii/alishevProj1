@@ -15,7 +15,7 @@ public class switchAdv {
             case 18:
                 System.out.println("time for army now");
                 break;
-            case 52:
+            case 53:
                 System.out.println("you are Alex");
                 break;
             //default:
